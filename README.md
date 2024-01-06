@@ -4,7 +4,7 @@ Build a recursive descent parser and interpreter for a simplified version of SQL
 
 ### BNF:
 
-
+```
 <Command>         ::=  <CommandType> ";"
 
 <CommandType>     ::=  <Use> | <Create> | <Drop> | <Alter> | <Insert> | <Select> | <Update> | <Delete> | <Join>
@@ -82,7 +82,7 @@ Build a recursive descent parser and interpreter for a simplified version of SQL
 [BoolOperator]    ::= "AND" | "OR"
 
 [Comparator]      ::=  "==" | ">" | "<" | ">=" | "<=" | "!=" | " LIKE "
-
+```
 
 Note:
 <name> denotes a rule which may contain arbitrary additional whitespace within the token, where as [name] indicates a rule that cannot contain additional whitespace
